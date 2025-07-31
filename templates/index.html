@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restoration Quote Study</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Restoration Quote Study</h1>
+    <div class="card">
+        <p id="quote">Loading...</p>
+        <p><strong>Speaker:</strong> <span id="speaker"></span></p>
+        <p><strong>Date:</strong> <span id="date"></span></p>
+        <p><strong>Place:</strong> <span id="place"></span></p>
+        <p><strong>Context:</strong> <span id="context"></span></p>
+        <p><strong>Reflection Question:</strong> <span id="prompt"></span></p>
+    </div>
+
+    <textarea id="response" placeholder="Type your reflection here..."></textarea>
+    <br>
+    <button onclick="getQuote()">New Quote</button>
+
+    <script>
+        async function getQuote() {
+            const res = await fetch('/quote');
+            const data = await res.json();
+            document.getElementById('quote').textContent = data.quote;
+            document.getElementById('speaker').textContent = data.speaker;
+            document.getElementById('date').textContent = data.date;
+            document.getElementById('place').textContent = data.place;
+            document.getElementById('context').textContent = data.context;
+            document.getElementById('prompt').textContent = data.prompt;
+            document.getElementById('response').value = '';
+        }
+
+        // Load first quote when page opens
+        window.onload = getQuote;
+    </script>
+</body>
+</html>
