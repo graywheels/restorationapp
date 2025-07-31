@@ -8,8 +8,8 @@
 /* Apple/Spotify-style Body */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: #f2f2f7;
-    color: #1c1c1e;
+    background-color: #05103c;
+    color: #121213;
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
@@ -21,6 +21,8 @@ h1 {
     font-size: 2.8rem;
     margin-bottom: 40px;
     font-weight: 600;
+    color: aliceblue;
+    padding-top: 11px;
 }
 
 /* Quote Card */
@@ -74,7 +76,7 @@ button {
     font-size: 1rem;
     font-weight: 600;
     border-radius: 100px;
-    background: linear-gradient(135deg, #1db954, #1ed760);
+    background: linear-gradient(135deg, #447cdd, #3a58eb);
     color: white;
     border: none;
     cursor: pointer;
