@@ -1,0 +1,82 @@
+[
+    {
+      "quote": "I knew it, and I knew that God knew it, and I could not deny it.",
+      "speaker": "Joseph Smith",
+      "date": "Spring 1820",
+      "place": "Palmyra, New York",
+      "context": "Joseph Smith’s account of the First Vision",
+      "prompt": "How does Joseph Smith's confidence in his divine experience inspire your faith?"
+    },
+    {
+      "quote": "Joseph Smith as a young man could neither write nor dictate a coherent and well-worded letter, let alone dictate a book like the Book of Mormon.",  
+      "speaker": "Emma Smith",
+      "date": "Unkown",
+      "place": "Nauvoo, Illinois",
+      "context": "Emma Smith defending the authenticity of the Book of Mormon",
+      "prompt": "What does Emma Smith's defense of Joseph's abilities teach you about the power of divine inspiration?"
+    },
+        {
+          "quote": "No wicked man could write such a book as this; and no good man would write it, unless it were true and he were commanded of God to do so.",
+          "speaker": "George Q. Cannon",
+          "date": "Mid-1800s",
+          "place": "Salt Lake City, Utah",
+          "context": "Defending the divine origin of the Book of Mormon",
+          "prompt": "What does this statement reveal about the spiritual power of the Book of Mormon?"
+        },
+        {
+          "quote": "I would rather go to the penitentiary or to the gallows than deny the testimony I have of the Book of Mormon.",
+          "speaker": "Parley P. Pratt",
+          "date": "1840s",
+          "place": "Nauvoo, Illinois",
+          "context": "Public defense of his faith during persecution",
+          "prompt": "How does Parley P. Pratt’s boldness strengthen your resolve to stand for truth?"
+        },
+        {
+          "quote": "I am not ashamed to say that I know that Joseph Smith was a prophet of God.",
+          "speaker": "Brigham Young",
+          "date": "1850s",
+          "place": "Salt Lake City, Utah",
+          "context": "Testimony shared during a general conference",
+          "prompt": "How does Brigham Young’s unwavering testimony influence your view of prophetic leadership?"
+        },
+        {
+          "quote": "The Book of Mormon is true, and I bear testimony of it with all my heart.",
+          "speaker": "Emma Smith",
+          "date": "1879",
+          "place": "Nauvoo, Illinois",
+          "context": "Emma’s final recorded testimony about the Book of Mormon",
+          "prompt": "How does Emma Smith’s conviction deepen your appreciation for her role in the Restoration?"
+        },
+        {
+          "quote": "If I should leave this Church, I would not do as those men have done—I would go to some remote place where Mormonism had never been heard of, settle down, and no one would ever learn that I knew anything about it.",
+          "speaker": "Isaac Behunnin",
+          "date": "1830s",
+          "place": "Missouri",
+          "context": "Comment made during a discussion with Joseph Smith about apostasy",
+          "prompt": "What does this quote teach about the weight of spiritual knowledge and accountability?"
+        },
+        {
+          "quote": "I have seen the power of God as manifested through the Prophet Joseph Smith, and I know that he was a true servant of the Lord.",
+          "speaker": "John Taylor",
+          "date": "1840s",
+          "place": "Nauvoo, Illinois",
+          "context": "Recollection of experiences with Joseph Smith",
+          "prompt": "How does John Taylor’s personal witness of Joseph Smith affect your trust in prophetic revelation?"
+        },
+        {
+          "quote": "The difference between God and the Devil is that God creates and organizes, while the whole study of the Devil is to destroy.",
+          "speaker": "Brigham Young",
+          "date": "1850s",
+          "place": "Salt Lake City, Utah",
+          "context": "Sermon on divine order and opposition",
+          "prompt": "How does this contrast help you recognize God’s hand in the Restoration?"
+        },
+        {
+          "quote": "Surely I have contemplated the things of God.",
+          "speaker": "Joseph Smith",
+          "date": "1830s",
+          "place": "Kirtland, Ohio",
+          "context": "Reflections on spiritual revelation and divine instruction",
+          "prompt": "How does Joseph Smith’s deep contemplation inspire your own spiritual seeking?"
+        }
+]
