@@ -21,9 +21,16 @@
     <button onclick="getQuote()">New Quote</button>
 
     <script>
-        async function getQuote() {
-            const res = await fetch('/quote');
-            const data = await res.json();
+        let quotes = [];
+    
+        async function loadQuotes() {
+            const res = await fetch("quotes.json");
+            quotes = await res.json();
+            getQuote();
+        }
+    
+        function getQuote() {
+            const data = quotes[Math.floor(Math.random() * quotes.length)];
             document.getElementById('quote').textContent = data.quote;
             document.getElementById('speaker').textContent = data.speaker;
             document.getElementById('date').textContent = data.date;
@@ -32,9 +39,9 @@
             document.getElementById('prompt').textContent = data.prompt;
             document.getElementById('response').value = '';
         }
-
-        // Load first quote when page opens
-        window.onload = getQuote;
+    
+        window.onload = loadQuotes;
     </script>
+    
 </body>
 </html>
